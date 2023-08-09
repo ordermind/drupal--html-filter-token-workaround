@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\Tests\html_filter_token_workaround\Util;
+namespace Drupal\Tests\html_filter_token_workaround\Unit\Util;
 
 use Drupal\html_filter_token_workaround\Util\TokenHelper;
 use Drupal\Tests\UnitTestCase;

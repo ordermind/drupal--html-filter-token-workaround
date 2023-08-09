@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Drupal\Tests\html_filter_token_workaround\Plugin\Filter;
+namespace Drupal\Tests\html_filter_token_workaround\Unit\Plugin\Filter;
 
 use Drupal\html_filter_token_workaround\Plugin\Filter\RestoreTokenSeparator;
 use Drupal\Tests\UnitTestCase;
