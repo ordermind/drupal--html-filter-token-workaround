@@ -1,0 +1,8 @@
+{
+    "name": "drupal/html_filter_token_workaround",
+    "type": "drupal-module--tengstrom",
+    "require": {
+        "drupal/core": "^9 || ^10",
+        "drupal/token": "^1.12"
+    }
+}

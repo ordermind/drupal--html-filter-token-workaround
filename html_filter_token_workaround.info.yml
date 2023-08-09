@@ -1,0 +1,12 @@
+name: HTML Filter Token Workaround
+description: This module makes it possible to use semicolon (;) instead of colon (:) as separator for tokens in rich text editors. If the filter is added after the filter "Limit allowed HTML tags and correct faulty HTML", it will prevent the token from being misformed as part of XSS protection of HTML attributes.
+package: Tengström Modules
+
+type: module
+core_version_requirement: ^9 || ^10
+
+dependencies:
+  - drupal:filter
+  - token:token
+
+version: 0.1.0
